@@ -11,6 +11,7 @@ def index():
             <h1> Enter any text so it can be reversed! </h1>
             <br>
             <br>
+            <br>
             <form action="" method="get">
             Text: <input type="text" name="text">
             <input type="submit" value="Reverse this text">
