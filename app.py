@@ -8,7 +8,7 @@ app = Flask(__name__)
 def index():
     html_form = """
         <html><body>
-            <h1> Enter a text so it can be reversed! </h1>
+            <h1> Enter any text so it can be reversed! </h1>
             <br>
             <br>
             <form action="" method="get">
