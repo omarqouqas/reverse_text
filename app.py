@@ -14,7 +14,7 @@ def index():
             <br>
             <form action="" method="get">
             Text: <input type="text" name="text">
-            <input type="submit" value="Reverse this text">
+            <input type="submit" value="Reverse This Text">
                 </form>
         </body></html>"""
 
