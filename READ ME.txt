@@ -1,0 +1,25 @@
+
+Make sure the python app file is called "app.py"
+
+SSH to the EC2 instance
+cd to /home/ec2-user/reverse
+
+To create a virtual env, run:
+python3 -m venv env
+
+To activate the virtual env:
+source env/bin/activate
+
+then run: 
+flask run --host=0.0.0.0 --port=3333
+
+
+Then browse to the EC2 public IP (i.e., http://75.101.243.35:3333/), OR "http://ec2-75-101-243-35.compute-1.amazonaws.com:3333/"
+
+Can also check if the flask instance is working locally by ssh'ing to server and using a local instance of the lynx text browser to verify the port is responding. ie
+
+
+lynx localhost:<port_number>
+lynx localhost:3333
+
+https://stackoverflow.com/questions/17818485/flask-web-app-not-responding-to-external-requests-on-ec2
