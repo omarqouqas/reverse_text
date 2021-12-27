@@ -29,7 +29,7 @@ def index():
 
 
 def reverse(text):
-    return "Reversed text of ", text, " is ", text[::-1]  # [start:end:step], step is reversed, start and stop left out
+    return "Reversed text of " + str(text) + " is " + str(text[::-1])  # [start:end:step], step is reversed, start and stop left out
 
 
 if __name__ == "__main__":
